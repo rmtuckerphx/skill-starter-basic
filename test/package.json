@@ -1,0 +1,19 @@
+{
+  "name": "skill-name-tests",
+  "version": "1.0.0",
+  "description": "Testing",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "facts"
+  ],
+  "author": "Shazaml Design LLC",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.6.7"
+  }
+}

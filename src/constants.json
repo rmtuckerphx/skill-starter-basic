@@ -1,0 +1,16 @@
+{
+    "skillAppID": "ENTER from Skill Console",
+    "dynamoDBTableName": "mySkillUsers",
+    "mobileAnalyticsSettings": {
+            "appId": "ENTER from Mobile Analytics Setup", 
+            "appTitle": "mySkillName", 
+            "appVersionName": "v1.0", 
+            "appVersionCode": "1"
+        },
+    "roleArn": "ENTER role from IAM",  
+    "region": "us-east-1",
+    "s3": {
+        "bucketName": "skill-name",
+        "key": "translations.json"
+    }
+}

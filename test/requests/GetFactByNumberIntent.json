@@ -1,0 +1,30 @@
+{
+  "session": {
+    "sessionId": "SessionId.Session1",
+    "application": {
+      "applicationId": ""
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.testaccount1"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.be2e1888-090a-4812-be19-b88ba21473cf",
+    "locale": "en-US",
+    "timestamp": "2016-10-14T06:47:00Z",
+    "debug": true,
+    "intent": {
+      "name": "GetFactByNumberIntent",
+      "slots": {
+        "number": {
+          "name": "number",
+          "value": "1"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

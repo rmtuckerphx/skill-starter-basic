@@ -1,0 +1,22 @@
+{
+  "name": "skill-name",
+  "version": "1.0.0",
+  "description": "Gives Facts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "facts"
+  ],
+  "author": "Shazaml Design LLC",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "rmtuckerphx/alexa-skills-kit-sdk-for-nodejs#v1.0.6.1",
+    "aws-sdk": "^2.6.7",
+    "lodash": "^4.16.4",
+    "synchronize": "alexeypetrushin/synchronize"
+  }
+}
