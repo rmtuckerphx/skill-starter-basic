@@ -258,3 +258,15 @@ If enough time has passed, you will see all requests to your skill begin tracked
 - When your request to your skill causes the **LaunchRequest** then you are in conversation mode. The LaunchRequest starts the session and usually a CancelIntent or StopIntent will end it. These sessions can consist of many requests.
 
 For more information about this, see the post: [Make Your Alexa Skill Not Be Rude](https://www.linkedin.com/pulse/make-your-alexa-skill-rude-mark-tucker?trk=pulse_spock-articles)
+
+## Finish Configuring Alexa skill in developer portal
+Now we need to complete the link between the skill registration and the Lambda function: 
+- Go to the [Amazon Developer Console](https://developer.amazon.com/home.html)
+- Go to your skill definition and click the **Configuration** entry on the side menu
+- For **Endpoint** select **AWS Lambda ARN (Amazon Resource Name)**, pick **North America**, and enter the ARN from the [Lambda console](https://console.aws.amazon.com/lambda/home) to the text box.
+- Click **Next**
+- Now you should be able to use the **Service Simulator** to test each of your skill utterances and see the response.
+
+All that is left now is to build out your skill and publish it.
+
+Good luck!
