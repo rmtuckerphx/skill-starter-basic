@@ -9,13 +9,16 @@ var Util = require('./util');
 var FactsHelper = require('./factsHelper');
 
 exports.handler = function (event, context, callback) {
-    Translations.getResources(event.request.debug)
+    var useLocalResources = event.request.debug;
+    // useLocalResources = true;
+
+    Translations.getResources(useLocalResources)
         .then(function (data) {
 
             var alexa = Alexa.handler(event, context);
             alexa.appId = Constants.skillAppID;
-            alexa.dynamoDBTableName = Constants.dynamoDBTableName;
-            alexa.mobileAnalyticsSettings = Constants.mobileAnalyticsSettings;
+            // alexa.dynamoDBTableName = Constants.dynamoDBTableName;
+            // alexa.mobileAnalyticsSettings = Constants.mobileAnalyticsSettings;
             alexa.resources = data;
             alexa.registerHandlers(mainHandlers);
             alexa.execute();

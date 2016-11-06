@@ -1,5 +1,4 @@
 'use strict';
-var sw = require('stopword');
 var _ = require('lodash');
 
 
