@@ -208,7 +208,7 @@ You can quickly enable Mobile Analytics with a single setting and all requests t
   Mobile Analytics - Create Event: AMAZON.StopIntent, SessionId.Session1
   Mobile Analytics - Successful putEvents.
   ```
-It might take 30 minutes to an hour, but go back to the [Mobile Analy and you will see your tracked request.
+It might take 30 minutes to an hour, but go back to the [Mobile Analytics console](https://console.aws.amazon.com/mobileanalytics/home/) and you will see your tracked request.
 
 
 ## Create the Lambda function
